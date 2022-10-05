@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.seccion-dark {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 736px;
+     margin: auto;
+     /* este margin alinea la imagen a la alineacion central del seccion padre  */
+}
+
+.seccion-white {
+  color: black;  
+  background-color:#f5f5f7;
+}
+.alineacion-central {
+   
+    text-align: center;
+}
+.texto-destacado1 {
+    font-size: 28px;
+padding: 10px;
+}
+
+.texto-destacado2 {
+    font-size: 17px;
+
+}
+
+.subdestacado {
+    font-size: 14px;
+    line-height: 17px;
+    color: #78787c;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.espaciado_superior {
+    padding-top: 100px;
+}
+
+.links {
+    font-size: 18px;
+    /* saco la linea del link */
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/* vuelvo a declacar la clase anterior pero con el hover y lo que defina es lo que hara cuando se posicione el puntero */
+.links:hover {
+    text-decoration: underline;
+}
